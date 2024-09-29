@@ -1,0 +1,44 @@
+/* ProductSection.css */
+.product-section {
+      background-color: white !important;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .product-carousel-wrapper {
+    width: 100%;
+    position: relative;
+    
+  }
+  
+  .product-carousel {
+    display: flex;
+    overflow: hidden !important;
+    
+  }
+  .product-carousel-effect{
+    animation: scroll 40s linear infinite;
+    animation-play-state: running;
+    animation-delay: 2s;
+  }
+  
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-250px * 10)); } /* Adjust based on the number of items to scroll */
+  }
+  
+  .product-card {
+    min-width: 250px; /* Adjust the width of each card */
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  .product-section h3{
+    border-bottom : none !important;
+  }

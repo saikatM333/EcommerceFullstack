@@ -1,0 +1,24 @@
+/* PriceDetails.css */
+.price-details {
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .price-details:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .price-details .MuiTypography-h6 {
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .price-details .MuiTypography-body2 {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  

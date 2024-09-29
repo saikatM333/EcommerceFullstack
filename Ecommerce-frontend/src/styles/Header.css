@@ -1,0 +1,81 @@
+/* Header.css */
+.custom-app-bar {
+    background-color: #fcfcfc !important; /* Flipkart blue */
+    color: rgb(225, 105, 31)   !important;
+  }
+  
+  .custom-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .custom-title {
+    flex-grow: 0;
+  }
+  
+  .custom-link {
+    color: rgb(236, 139, 29);
+    text-decoration: none;
+
+  }
+  
+  .custom-search-bar {
+    margin: 0 20px;
+    flex-grow: 0;
+    
+  }
+  
+  .custom-icon-button {
+    margin-left: 10px;
+  }
+  
+  .custom-cart-icon {
+    margin-left: 20px;
+  }
+  
+  .MuiMenu-paper {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  /* SearchBar component styling */
+  .search-bar-container {
+    display: flex;
+    align-items: center;
+    background-color: white !important;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .search-input {
+    flex-grow: 2;
+    padding: 10px;
+    
+    outline: none;
+    border-radius: 50px !important;
+    width : 25rem  !important;
+    margin-right: 10px; 
+  }
+  
+  .search-button {
+    background-color: #f0c14b !important;
+    border: 1px solid #a88734!;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 4rem;
+  }
+  .custom-search-bar{
+    
+  }
+  .search-input .MuiOutlinedInput-root {
+    border-radius: 25px;
+}
+
+.search-input .MuiOutlinedInput-notchedOutline {
+    border-radius: 25px;
+}
+
+.search-input .MuiOutlinedInput-input {
+    padding: 10px 15px;
+}

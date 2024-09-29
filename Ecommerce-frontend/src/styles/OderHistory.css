@@ -1,0 +1,40 @@
+/* OrderHistory.css */
+
+.order-container {
+    padding: 32px;
+  }
+  
+  .order-item {
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px !important;
+    margin-top: 16px !important ;
+    display: flex;
+    align-items: center;
+  }
+  
+  .item-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .item-details {
+    flex: 1;
+    padding-left: 16px;
+  }
+  
+  .item-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .item-quantity {
+    display: flex;
+    align-items: center;
+  }
+  

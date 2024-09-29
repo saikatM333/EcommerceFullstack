@@ -1,0 +1,130 @@
+/* Checkout.css
+.checkout-container {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+    max-width: 600px;
+  }
+  
+  .checkout-container .MuiTypography-h4 {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .checkout-container .MuiTextField-root {
+    margin-bottom: 20px;
+  }
+  
+  .checkout-container .MuiFormControl-root {
+    margin-bottom: 20px;
+  }
+  
+  .checkout-container .MuiFormLabel-root {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .checkout-container .MuiRadio-root {
+    color: #ff5722;
+  }
+  
+  .checkout-container .MuiButton-containedPrimary {
+    background-color: #ff5722;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 0;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .checkout-container .MuiButton-containedPrimary:hover {
+    background-color: #e64a19;
+    transform: translateY(-2px);
+  }
+   */
+
+   /* Checkout.css */
+.checkout-container {
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .checkout-container .MuiTypography-h4 {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .checkout-container .input-field {
+    margin-bottom: 20px;
+  }
+  
+  .checkout-container .order-summary {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .checkout-container .order-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .checkout-container .order-total,
+  .checkout-container .order-discount,
+  .checkout-container .order-final-total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .checkout-container .order-final-total {
+    font-weight: bold;
+  }
+  
+  .checkout-container .MuiFormControl-root {
+    margin-bottom: 20px;
+  }
+  
+  .checkout-container .MuiFormLabel-root {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .checkout-container .apply-promo-button {
+    margin-top: 10px;
+    background-color: #ff5722;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 0;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .checkout-container .apply-promo-button:hover {
+    background-color: #e64a19;
+    transform: translateY(-2px);
+  }
+  
+  .checkout-container .checkout-button {
+    background-color: #ff5722;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 0;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .checkout-container .checkout-button:hover {
+    background-color: #e64a19;
+    transform: translateY(-2px);
+  }
+  
